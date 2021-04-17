@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Der Zuweisugsoperator macht nur eine Kopie von der Referrenzvariable nicht von deem Objekt selber.\n" +
                         "Die Referenzvariable ist nur ein Zeiger oder Pointer der aud die Stelle im Speicher zeigt in welcher des Objekt gespeichert ist.");
 
+
         System.out.println("\n\nWie Wir es Verhindern: Clonen\n");
 
         TestObjektClonable c=new TestObjektClonable();
@@ -31,6 +32,7 @@ public class Main {
         c.b=56456623;
 
         System.out.println("Erstes Objekt verändert: \n"+c.toString()+"\n"+d.toString());
+        System.out.println("in der Fachsprache nennt man Kopien mittels dem Zuweisungsoperator Shallow-Copies und geclonte kopien Deep-Copies");
         System.out.println("-----------------------------------------------------------------------------------------------------");
 
         System.out.println("Jetzt mal andere Datentypen als Beispiel:");
