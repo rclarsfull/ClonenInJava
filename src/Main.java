@@ -17,7 +17,9 @@ public class Main {
         System.out.println("Erstes Objekt verändert: \n"+a.toString()+"\n"+b.toString());
         System.out.println("Warum ändert sich das zweite Objekt auch mit??");
         System.out.println("Der Zuweisugsoperator macht nur eine Kopie von der Referrenzvariable nicht von deem Objekt selber.\n" +
-                        "Die Referenzvariable ist nur ein Zeiger oder Pointer der aud die Stelle im Speicher zeigt in welcher des Objekt gespeichert ist.");
+                        "Die Referenzvariable ist nur ein Zeiger oder Pointer der aud die Stelle im Speicher zeigt in welcher des Objekt gespeichert ist. \n"+
+                "Wenn also das Objekt über die eine Referenzvariable verändert wird, dann ändert sich auch der Wert auf welche die andere Referanzvariable deutet" +
+                "\nda es im endeffekt die selbe Speicheradresse ist auf die die beiden Refernzvariabeln deuten.");
 
 
         System.out.println("\n\nWie Wir es Verhindern: Clonen\n");
