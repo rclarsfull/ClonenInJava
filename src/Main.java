@@ -22,7 +22,8 @@ public class Main {
                 "\nda es im endeffekt die selbe Speicheradresse ist auf die die beiden Refernzvariabeln deuten.");
 
 
-        System.out.println("\n\nWie Wir es Verhindern: Clonen\n");
+        System.out.println("\n\nWie Wir es Verhindern: Clonen\n" +
+                "Mithilfe dessen erzeugen wir ein ganz neues Objekt auf basis des anderen, und nicht nur einen neuen Weg.\n\n");
 
         TestObjektClonable c=new TestObjektClonable();
         System.out.println("Erstes Clonable-Objekt erstellt:\n "+c.toString());
